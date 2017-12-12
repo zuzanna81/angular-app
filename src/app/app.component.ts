@@ -13,17 +13,7 @@ export class AppComponent {
     liked: true
   }
 
-export class SuggesstionsComponent {
-  videos = [
-    {name: 'video one', liked: true}
-    {name: 'video two', liked: false}
-  ]
-
-  isShown: boolean = true
-
-  constructor() { }
-
   handleClick(){
-    console.log('Someone clicked on button on the template :-)'
-  )
+    console.log('Someone clicked on button on the template')
+  }
 }
